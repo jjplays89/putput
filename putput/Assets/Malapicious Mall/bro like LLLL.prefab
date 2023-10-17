@@ -2404,27 +2404,27 @@ PrefabInstance:
     - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
       propertyPath: m_XDrive.positionDamper
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
       propertyPath: m_XDrive.positionSpring
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
       propertyPath: m_YDrive.positionDamper
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
       propertyPath: m_YDrive.positionSpring
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
       propertyPath: m_ZDrive.positionDamper
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
@@ -2433,8 +2433,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
+      propertyPath: m_SlerpDrive.positionDamper
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
+        type: 3}
       propertyPath: m_SlerpDrive.positionSpring
-      value: 5000
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
+        type: 3}
+      propertyPath: m_AngularXDrive.positionDamper
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
+        type: 3}
+      propertyPath: m_AngularXDrive.positionSpring
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
+        type: 3}
+      propertyPath: m_AngularYZDrive.positionDamper
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198533274128557792, guid: a3efc2129f8d5a144ba7a717f689904a,
+        type: 3}
+      propertyPath: m_AngularYZDrive.positionSpring
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2284872696585819987, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
@@ -2449,7 +2474,7 @@ PrefabInstance:
     - target: {fileID: 2284872697913055394, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
       propertyPath: m_Name
-      value: Physics Rig
+      value: bro like LLLL
       objectReference: {fileID: 0}
     - target: {fileID: 2284872697913055404, guid: a3efc2129f8d5a144ba7a717f689904a,
         type: 3}
