@@ -18,7 +18,7 @@ public class NetworkConnect : MonoBehaviour
     private async void Awake()
     {
         // Initialyzes player before starting the sign in
-        await UnityService.Initializing.InitializeAsync();
+        await UnityServices.InitializeAsync();
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
 
     }
@@ -40,7 +40,7 @@ public class NetworkConnect : MonoBehaviour
         JoinAllocation allocation = await RelayService.Instance.JoinAllocationAsync(joinCode);
 
         transport.SetClientRelayData(allocation.RelayServer.IpV4, (ushort)allocation.RelayServer.Port,
-            allocation.AllocationIdBytes, allocation.Key, allocation.ConnectionData, allocation.HostConnectionData);
+        allocation.AllocationIdBytes, allocation.Key, allocation.ConnectionData, allocation.HostConnectionData);
 
         NetworkManager.Singleton.StartClient();
     }
