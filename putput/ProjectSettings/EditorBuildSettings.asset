@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/island.unity
     guid: 076a3aec0ed64074bb5816b4042f7e89
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/jj map.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Valley.unity
+    guid: 00a12cfebab5014438e2ff695c7dddf7
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a6e9be044d5bfdd4f879fa1bde484cf3,
       type: 2}
